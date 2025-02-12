@@ -12,13 +12,13 @@ function validateConfig() {
     }
 
     // Validate colors
-    const isValidHex = (hex) => /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(hex);
-    Object.entries(config.colors).forEach(([key, value]) => {
-        if (!isValidHex(value)) {
-            warnings.push(`Invalid color for ${key}! Using default.`);
-            config.colors[key] = getDefaultColor(key);
-        }
-    });
+    //const isValidHex = (hex) => /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(hex);
+    //Object.entries(config.colors).forEach(([key, value]) => {
+        //if (!isValidHex(value)) {
+            //warnings.push(`Invalid color for ${key}! Using default.`);
+            //config.colors[key] = getDefaultColor(key);
+        //}
+    //});
 
     // Validate animation values
     if (parseFloat(config.animations.floatDuration) < 5) {
