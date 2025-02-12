@@ -131,7 +131,7 @@ body {
 .slider {
     width: 100%;
     height: 25px;
-    background: linear-gradient(to right, #ff6b6b, #ff8787, #ffb8b8);
+    background: linear-gradient(to right, #DAD2FF, #B2A5FF, #453796);
     -webkit-appearance: none;
     appearance: none;
     outline: none;
@@ -151,7 +151,7 @@ body {
 .slider::-moz-range-track {
     width: 100%;
     height: 25px;
-    background: linear-gradient(to right, #ff6b6b, #ff8787, #ffb8b8);
+    background: linear-gradient(to right, #DAD2FF, #B2A5FF, #453796);
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
@@ -161,7 +161,7 @@ body {
     -webkit-appearance: none;
     width: 35px;
     height: 35px;
-    background: linear-gradient(135deg, #ff4757, #ff6b6b);
+    background: linear-gradient(135deg, #493D9E, #DAD2FF);
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 2px 10px rgba(255, 71, 87, 0.3);
@@ -180,7 +180,7 @@ body {
 .slider::-moz-range-thumb {
     width: 35px;
     height: 35px;
-    background: linear-gradient(135deg, #ff4757, #ff6b6b);
+    background: linear-gradient(135deg, #493D9E, #DAD2FF);
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 2px 10px rgba(255, 71, 87, 0.3);
@@ -196,7 +196,7 @@ body {
 }
 
 #extraLove {
-    color: #ff6b6b;
+    color: #DAD2FF;
     font-weight: bold;
     animation: bounce 0.5s infinite alternate;
     display: block;
@@ -217,7 +217,7 @@ body {
 
 #loveValue {
     font-weight: bold;
-    color: #ff4757;
+    color: #493D9E;
     font-size: 1.3em;
     transition: all 0.3s ease;
 }
@@ -261,17 +261,17 @@ h1, h2 {
 }
 
 h1 {
-    color: #ff6b6b;
+    color: #DAD2FF;
     margin-bottom: 2rem;
 }
 
 h2 {
-    color: #ff8787;
+    color: #B2A5FF;
 }
 
 .super-love {
     font-size: 1.5em;
-    color: #ff4757;
+    color: #493D9E;
     font-weight: bold;
     transform: scale(1.2);
     display: inline-block;
@@ -281,7 +281,7 @@ h2 {
 
 .celebration-text {
     font-size: 3em;
-    color: #ff4757;
+    color: #493D9E;
     font-weight: bold;
     margin: 30px 0;
     animation: bounce var(--bounce-speed) infinite alternate;
