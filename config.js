@@ -44,7 +44,7 @@ const CONFIG = {
     celebration: {
         title: "I'm blessed to have met you baby 🥺🥺🥺 ",
         message: "I love you! I'll respect you! and I'll choose you always (agi)🤗🥺",
-        emojis: "❤️🤍🩶💜🩷🐼🐻🐨🦝🐧🐷🦌"  // These will bounce around
+        emojis: "❤️🐼🤍🐻🩶🐨💜🦝🩷🐧🐷🦌"  // These will bounce around
         
     },
 
